@@ -25,11 +25,27 @@
 .dropdown {
   background-color:rgba(212,201,201,0.75);
   overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   box-shadow: -2px -1px 0px 13px rgba(212,201,201,0.75);
   -webkit-box-shadow: -2px -1px 0px 13px rgba(212,201,201,0.75);
   -moz-box-shadow: -2px -1px 0px 13px rgba(212,201,201,0.75);
 
 } 
+
+select:focus{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid red;
+  outline: 0;
+}
+
+select:hover{
+  border: 1px solid red;
+
+}
+
+
 
 
 
