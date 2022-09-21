@@ -7,27 +7,32 @@
 }
 
 .dropdown select {
-  background: transparent;
+  background-color: rgba(212,201,201,0.75);
   width: 140px;
   height: 35px;
   padding: 5px;
   border: 1px solid #ccc;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 6px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  background : url("https://cdn.iconscout.com/icon/free/png-256/down-keyboard-arrow-key-direction-30469.png") 95% / 11% no-repeat #fff;
+
 
 } 
 
 .dropdown {
-  padding: 10px;
-  width: 150px;
-  background-color: white;
-  height: 34px;
-  border-radius: 3px;
+  background-color:rgba(212,201,201,0.75);
   overflow: hidden;
-  background : url("https://cdn.iconscout.com/icon/free/png-256/down-keyboard-arrow-key-direction-30469.png") 88% / 11% no-repeat transparent;
+  box-shadow: -2px -1px 0px 13px rgba(212,201,201,0.75);
+  -webkit-box-shadow: -2px -1px 0px 13px rgba(212,201,201,0.75);
+  -moz-box-shadow: -2px -1px 0px 13px rgba(212,201,201,0.75);
+
 } 
+
+
+
+
 
 
